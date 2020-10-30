@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <title>Delete</title>
+    <link rel="stylesheet" href="/static/delete.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <div class="del"> 
+        <p>Are you sure you want to delete? "{{item}}"</p>
+
+        <a class="btn btn-md btn-info btn1" href="{% url 'list' %}">Cancel</a>
+
+        <form action="" method = "POST">
+
+            {% csrf_token %}
+
+            <input class="btn btn-md btn-success btn2" type="submit" name="Confirm">
+        </form>
+    </div>
+
+{% endblock %}
+

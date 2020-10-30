@@ -1,0 +1,27 @@
+.del{
+    width: 400px;
+    height:200px;
+    background-color: beige;
+    padding: 70px 0;
+    text-align: center;
+    border-color: blue;
+    margin-top: 200px;
+    margin-left: 400px;
+
+}
+
+.btn1{
+    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-left: 40px;;
+    width: 100px;
+    float: left;
+   
+}
+
+.btn2{
+    /* margin-top: 20px; */
+    width: 100px;
+    float: right;
+    margin-right: 40px;
+}

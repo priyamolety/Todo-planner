@@ -1,0 +1,26 @@
+.btn2{
+    margin-top: 20px;
+    width: 150px;
+    float: center;
+    margin-left: 180px;
+}
+
+#div_id_complete{
+    margin-top:50px;
+}
+
+
+
+h3{
+    text-align: center;
+}
+
+.up{
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 170px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 6px 2px 30px 0px rgba(0,0,0,0.75);
+}
